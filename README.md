@@ -35,6 +35,13 @@ $ conventional-commits-detector 10 # number of samples
 ```
 
 
+## Related
+
+- [conventional-github-releaser](https://github.com/stevemao/conventional-github-releaser) - Make a new GitHub release from git metadata
+- [conventional-changelog](https://github.com/ajoslin/conventional-changelog) - Generate a changelog from git metadata
+- [conventional-recommended-bump](https://github.com/stevemao/conventional-recommended-bump) - Get a recommended version bump based on conventional commits
+
+
 ## License
 
 MIT © [Steve Mao](https://github.com/stevema)
