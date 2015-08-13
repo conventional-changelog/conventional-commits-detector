@@ -36,6 +36,6 @@ gitRawCommits({
     commits.push(data.toString());
     cb();
   }, () => {
-    let conventions = conventionalCommitsDetector(commits);
-    console.log(conventions);
+    let convention = conventionalCommitsDetector(commits);
+    console.log(convention);
   }));
