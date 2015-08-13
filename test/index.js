@@ -14,6 +14,17 @@ it('should be angular', function () {
   equal(conventionalCommitsDetector(commits), 'angular');
 });
 
+it('should be atom', function () {
+  let commits = [
+    ':memo: Fix license',
+    ':memo: Add a screenshot',
+    ':fire: init',
+    'Prepare 0.0.1 release'
+  ];
+
+  equal(conventionalCommitsDetector(commits), 'atom');
+});
+
 it('should be ember', function () {
   let commits = [
     '[BUGFIX beta] Guard `meta` and move readonly error to prototype.',
