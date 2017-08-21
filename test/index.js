@@ -75,7 +75,7 @@ it('should accept an environment override', function () {
 
   const oldEnv = process.env.COMMIT_CONVENTION_OVERRIDE;
   process.env.COMMIT_CONVENTION_OVERRIDE = 'angular';
-  
+
   equal(conventionalCommitsDetector(commits), 'angular');
   process.env.COMMIT_CONVENTION_OVERRIDE = oldEnv;
 });
@@ -92,7 +92,7 @@ it('should ignore an unknown environment override', function () {
 
   const oldEnv = process.env.COMMIT_CONVENTION_OVERRIDE;
   process.env.COMMIT_CONVENTION_OVERRIDE = 'some unknown convention';
-  
+
   equal(conventionalCommitsDetector(commits), 'atom');
   process.env.COMMIT_CONVENTION_OVERRIDE = oldEnv;
 });
