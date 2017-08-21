@@ -63,3 +63,36 @@ it('should be jshint', function () {
 
   equal(conventionalCommitsDetector(commits), 'jshint');
 });
+
+it('should accept an environment override', function () {
+  // intentionally NOT angular
+  let commits = [
+    ':memo: Fix license',
+    ':memo: Add a screenshot',
+    ':fire: init',
+    'Prepare 0.0.1 release'
+  ];
+
+  const oldEnv = process.env.COMMIT_CONVENTION_OVERRIDE;
+  process.env.COMMIT_CONVENTION_OVERRIDE = 'angular';
+
+  equal(conventionalCommitsDetector(commits), 'angular');
+  process.env.COMMIT_CONVENTION_OVERRIDE = oldEnv;
+});
+
+
+it('should ignore an unknown environment override', function () {
+  // intentionally NOT angular
+  let commits = [
+    ':memo: Fix license',
+    ':memo: Add a screenshot',
+    ':fire: init',
+    'Prepare 0.0.1 release'
+  ];
+
+  const oldEnv = process.env.COMMIT_CONVENTION_OVERRIDE;
+  process.env.COMMIT_CONVENTION_OVERRIDE = 'some unknown convention';
+
+  equal(conventionalCommitsDetector(commits), 'atom');
+  process.env.COMMIT_CONVENTION_OVERRIDE = oldEnv;
+});
