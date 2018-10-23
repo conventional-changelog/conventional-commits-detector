@@ -1,8 +1,6 @@
 # conventional-commits-detector [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Detect what commit message convention your repository is using
 
-[Synopsis of Conventions](https://github.com/ajoslin/conventional-changelog/tree/master/conventions)
-
 ## Install
 
 ```sh
