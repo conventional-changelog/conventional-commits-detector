@@ -1,7 +1,7 @@
 {
   "name": "conventional-commits-detector",
   "version": "0.1.1",
-  "description": "Detect what commit message convention your repository is using",
+  "description": "Detect what commit message convention your repository is using.",
   "homepage": "https://github.com/stevemao/conventional-commits-detector",
   "repository": "stevemao/conventional-commits-detector",
   "bin": "dist/bin/cli.js",
@@ -15,15 +15,9 @@
   ],
   "main": "dist/lib/index.js",
   "keywords": [
-    "conventional",
-    "convention",
-    "message",
-    "git",
-    "commit",
-    "commits",
-    "detect",
-    "detector",
-    "format"
+    "commit-conventions",
+    "conventions",
+    "commit-message"
   ],
   "devDependencies": {
     "babel-core": "^5.8.21",
