@@ -27,7 +27,7 @@
     "gulp-coveralls": "^0.1.4",
     "gulp-eslint": "^5.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.10.0",
+    "gulp-istanbul": "^1.0.0",
     "gulp-mocha": "^2.1.3",
     "gulp-nsp": "^0.4.5",
     "gulp-plumber": "^1.0.1",
