@@ -23,7 +23,7 @@
     "babel-core": "^6.0.0",
     "del": "^3.0.0",
     "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.0",
+    "gulp-babel": "^8.0.0",
     "gulp-coveralls": "^0.1.4",
     "gulp-eslint": "^1.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
