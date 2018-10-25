@@ -31,7 +31,7 @@
     "gulp-mocha": "^6.0.0",
     "gulp-nsp": "^3.0.0",
     "gulp-plumber": "^1.0.1",
-    "isparta": "^3.0.3",
+    "isparta": "^4.0.0",
     "run-sequence": "^1.1.2"
   },
   "scripts": {
