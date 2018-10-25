@@ -42,7 +42,7 @@
   "dependencies": {
     "arrify": "^1.0.0",
     "git-raw-commits": "^2.0.0",
-    "meow": "^3.3.0",
+    "meow": "^5.0.0",
     "through2-concurrent": "^1.1.0"
   }
 }
