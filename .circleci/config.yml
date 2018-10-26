@@ -1,0 +1,44 @@
+version: 2
+
+node_6: &node_6
+  docker:
+    - image: node:6@sha256:68d8ca89524a21200e6a3ec0948893f3fe2c9e807ecc2a74319fbee59a13d2c4
+
+node_8: &node_8
+  docker:
+    - image: node:8@sha256:d97f5bf54e016ad55dd0475f8710b99be14884ab1afcae8875f8092341264b0c
+
+node_next: &node_next
+  docker:
+    - image: node:latest@sha256:32d5d5435e5038028bd0c0871d256d5887b06c4315cb1a135bcf81e0735627c9
+
+test_plan: &test_plan
+  steps:
+    - checkout
+    - restore_cache:
+        keys:
+          - v1-dependencies_test_plan
+    - run: yarn install --frozen-lockfile
+    - save_cache:
+        paths:
+          - node_modules
+          - ${HOME}/.cache/yarn
+        key: v1-dependencies_test_plan
+    - run: yarn test
+    - run: $(yarn bin)/codecov || echo "CodeCov did not collect coverage reports"
+
+jobs:
+  node_6_test_plan:
+    <<: [*node_6, *test_plan]
+  node_8_test_plan:
+    <<: [*node_8, *test_plan]
+  node_next_test_plan:
+    <<: [*node_next, *test_plan]
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - node_6_test_plan
+      - node_8_test_plan
+      - node_next_test_plan
