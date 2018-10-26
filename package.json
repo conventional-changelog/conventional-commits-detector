@@ -1,48 +1,53 @@
 {
-  "name": "conventional-commits-detector",
-  "version": "1.0.0",
-  "description": "Detect what commit message convention your repository is using.",
-  "homepage": "https://github.com/stevemao/conventional-commits-detector",
-  "repository": "stevemao/conventional-commits-detector",
-  "bin": "dist/bin/cli.js",
   "author": {
     "name": "Steve Mao",
     "email": "maochenyan@gmail.com",
     "url": "https://github.com/stevemao"
   },
+  "bin": "./src/cli.js",
+  "bugs": "https://github.com/conventional-changelog/conventional-commits-detector/issues",
+  "description": "Detect what commit message convention your repository is using.",
+  "engines": {
+    "node": ">=6.9.0"
+  },
   "files": [
-    "dist"
+    "src/"
   ],
-  "main": "dist/lib/index.js",
+  "homepage": "https://github.com/conventional-changelog/conventional-commits-detector#readme",
   "keywords": [
     "commit-conventions",
     "conventions",
     "commit-message"
   ],
-  "devDependencies": {
-    "babel-core": "^6.0.0",
-    "del": "^3.0.0",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-coveralls": "^0.1.4",
-    "gulp-eslint": "^5.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^1.0.0",
-    "gulp-mocha": "^6.0.0",
-    "gulp-nsp": "^3.0.0",
-    "gulp-plumber": "^1.0.1",
-    "isparta": "^4.0.0",
-    "run-sequence": "^2.0.0"
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "conventional-commits-detector",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conventional-changelog/conventional-commits-detector.git"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "dev": "docker run --rm --user node -v \"$(pwd)\":/app -w /app -it node:6 sh -c \"yarn install; yarn test; bash\"",
+    "test": "eslint src/ && nyc mocha --opts mocha.opts src/**/*.spec.js"
   },
-  "license": "MIT",
+  "version": "1.0.0",
   "dependencies": {
     "arrify": "^1.0.0",
     "git-raw-commits": "^2.0.0",
     "meow": "^5.0.0",
     "through2-concurrent": "^2.0.0"
+  },
+  "devDependencies": {
+    "@hbetts/conventional-changelog-config": "^1.0.0",
+    "@hbetts/eslint-config": "^2.0.0",
+    "@hbetts/nyc-config": "^1.0.2",
+    "chai": "^4.0.2",
+    "codecov": "^3.0.0",
+    "debug": "^4.0.0",
+    "eslint": "^5.3.0",
+    "mocha": "^5.0.0",
+    "npm-publish-git-tag": "^2.1.14",
+    "nyc": "^13.0.0",
+    "semantic-release-github": "^4.0.17"
   }
 }

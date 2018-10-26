@@ -1,0 +1,5 @@
+--check-leaks
+--full-trace
+--inline-diffs
+--recursive
+--reporter=progress
