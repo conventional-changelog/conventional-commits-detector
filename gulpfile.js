@@ -6,7 +6,6 @@ var excludeGitignore = require('gulp-exclude-gitignore');
 var mocha = require('gulp-mocha');
 var isparta = require('isparta');
 var istanbul = require('gulp-istanbul');
-var nsp = require('gulp-nsp');
 var plumber = require('gulp-plumber');
 var coveralls = require('gulp-coveralls');
 var babel = require('gulp-babel');
@@ -26,10 +25,6 @@ gulp.task('static', function () {
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());
-});
-
-gulp.task('nsp', function (cb) {
-  nsp('package.json', cb);
 });
 
 gulp.task('pre-test', function () {
@@ -72,7 +67,7 @@ gulp.task('babel', function () {
 });
 
 gulp.task('prepublish', ['clean'], function () {
-  runSequence(['nsp', 'babel']);
+  runSequence(['babel']);
 });
 
 gulp.task('default', ['static', 'test', 'coveralls']);
