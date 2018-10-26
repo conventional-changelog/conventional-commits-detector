@@ -1,6 +1,6 @@
 {
   "name": "conventional-commits-detector",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Detect what commit message convention your repository is using.",
   "homepage": "https://github.com/stevemao/conventional-commits-detector",
   "repository": "stevemao/conventional-commits-detector",
