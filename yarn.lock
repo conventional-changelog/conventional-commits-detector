@@ -2239,16 +2239,17 @@ normalize-url@2.0.1:
     query-string "^5.0.1"
     sort-keys "^2.0.0"
 
-npm-publish-git-tag@^2.1.14:
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/npm-publish-git-tag/-/npm-publish-git-tag-2.1.16.tgz#028d14c1aabae1fa0a44f4c514b9cf553620bf92"
-  integrity sha512-rhKCmpVat9znobbfEvWrE5qnmYlKK6i1qxU2THasjPRegzA0AE6+kI/iQl1kMxwhe8z3LHX/HwGG2m/wLspGyQ==
+npm-publish-git-tag@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/npm-publish-git-tag/-/npm-publish-git-tag-3.0.0.tgz#9b34909091d8b3e92b9ecbe6d1b1d2e03fe4617b"
+  integrity sha512-MtEqpXamTldT5E5fVgqs+VizWfQ4zQ3sDT+XyyyqzQ/3h79ZiUOtygyTb1EYfNzlpar6eUNXsRXt/31nEkyK3w==
   dependencies:
     bluebird "^3.5.0"
     commander "^2.9.0"
     git-latest-semver-tag "^1.0.2"
     is-scoped "^1.0.0"
     read-pkg "^4.0.0"
+    semver "^5.6.0"
     set-npm-auth-token-for-ci "^2.0.0"
     shelljs "^0.8.0"
     write-pkg "^3.0.1"
@@ -2917,7 +2918,7 @@ semver-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/semver-regex/-/semver-regex-2.0.0.tgz#a93c2c5844539a770233379107b38c7b4ac9d338"
   integrity sha512-mUdIBBvdn0PLOeP3TEkMH7HHeUP3GjsXCwKarjv/kGmUFOYg1VqEemKhoQpWMu6X2I8kHeuVdGibLGkVK+/5Qw==
 
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1:
+"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
