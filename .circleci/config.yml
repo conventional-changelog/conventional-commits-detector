@@ -6,11 +6,11 @@ node_6: &node_6
 
 node_8: &node_8
   docker:
-    - image: node:8@sha256:7ed12d4810ed02b8c908d554976062ae61f42db8252bb9e148da0bffb72fb086
+    - image: node:8@sha256:5a9c6cf93c5ed21d151513c6e80cec8c339412bfc029f1806c40602a2a3e80a9
 
 node_next: &node_next
   docker:
-    - image: node:latest@sha256:44637020442a49fd2412e954422c3b0face5272bccf2d113ca37186b38167afb
+    - image: node:latest@sha256:bcba4724dfaf8cb50598af92de710841d64565465ed86439711acfa59a3b6948
 
 test_plan: &test_plan
   steps:
