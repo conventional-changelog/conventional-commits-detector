@@ -38,9 +38,9 @@
     "through2-concurrent": "^2.0.0"
   },
   "devDependencies": {
-    "@hbetts/conventional-changelog-config": "^1.0.0",
-    "@hbetts/eslint-config": "^2.0.0",
-    "@hbetts/nyc-config": "^1.0.2",
+    "@hutson/conventional-changelog-config": "^2.0.0",
+    "@hutson/eslint-config": "^3.0.0",
+    "@hutson/nyc-config": "^2.0.0",
     "chai": "^4.0.2",
     "codecov": "^3.0.0",
     "debug": "^4.0.0",
