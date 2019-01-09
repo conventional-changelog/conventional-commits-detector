@@ -2,15 +2,15 @@ version: 2
 
 node_6: &node_6
   docker:
-    - image: node:6@sha256:163e440173b0d7ff655eb4b736cd50a599d39843cbe98188beafe4fab718f59d
+    - image: node:6@sha256:662700686bc87f720b0a2332ef5342f408607c389a8e1ee0dc045f478d04b772
 
 node_8: &node_8
   docker:
-    - image: node:8@sha256:d1a22a5daa90746ce18454fd456089de46382c5f92afc49677e07d15d901ed9a
+    - image: node:8@sha256:640478a7d5a5844af443263b967b35b0795b2c4e0b4cc7f0740e260c464a374f
 
 node_next: &node_next
   docker:
-    - image: node:latest@sha256:83fb9f38f66f426b418d1ae62dfed6731de69aaa864a6ff1deab30e3ac8fc74e
+    - image: node:latest@sha256:5087e65a8819e940256d8038a853cffdb67b669f246df47e672e8ae99b08c692
 
 test_plan: &test_plan
   steps:
