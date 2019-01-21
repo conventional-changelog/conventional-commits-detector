@@ -91,28 +91,28 @@
     to-fast-properties "^2.0.0"
 
 "@hutson/conventional-changelog-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@hutson/conventional-changelog-config/-/conventional-changelog-config-2.0.0.tgz#3bde3cd4a12246f2648d42e17a57179679f925f0"
-  integrity sha512-PK5i9xtK35WZnAvInuJQvPX+B3uOLqGC8A+AYxn2BHsq0NXdsUIv5yt8BrScQ3FxswroU3L2KxI3pp7CkjmonA==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@hutson/conventional-changelog-config/-/conventional-changelog-config-2.0.1.tgz#cdf3820cfd508a8cc3ee8050ca262a37e4aafad0"
+  integrity sha512-XY+5OX7A5Dnk2/BnHd6twwzvHY0/2+sr5pjKeUm0xAsE9PICS/pxL54KaW8saDnZ6heHnOcBJM8BhnsKh9+5sQ==
   dependencies:
     conventional-changelog-angular "^5.0.0"
 
 "@hutson/eslint-config@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@hutson/eslint-config/-/eslint-config-3.0.0.tgz#52fe25b6cd34114aaad1073a4c0e72db7dc30b16"
-  integrity sha512-URx6sHyB/7fFXKx4qRv5XJ85wSVTBF0l9Zjz2ygSC/S3CUmPDZN6MK1WTotWSxKSzdCuecuunwCNuSjXqcJl6Q==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@hutson/eslint-config/-/eslint-config-3.0.1.tgz#56e1ddf9eee51b8e59da582077dab11a2faec47a"
+  integrity sha512-c1T3SKFAXcuertoQ7Gd1JOI/LX1noX26vM2erUvYmBV1XMxNBLzZyh4pU9bKvyxzSOdwnH9h72XkcvXpGYxUPQ==
   dependencies:
     eslint-config-xo-space "^0.20.0"
 
 "@hutson/nyc-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@hutson/nyc-config/-/nyc-config-2.0.0.tgz#7f376e6160440974a4188a9d959f2c8235b5693a"
-  integrity sha512-CZVg+iUNWHm2beNt+O9fzqD3CVfXTIGM+F/ZqAM7Y49J5qQB5y8NMab9u1kTRQ0A1rNlAQtx0hVKwKjsPebvYg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@hutson/nyc-config/-/nyc-config-2.0.1.tgz#ac468109bdfe18c7c1a0a72a5607490027f37d65"
+  integrity sha512-DLWK41S1IOx6GSVH7CTWnhH/NBjGIir2Chi7PnajB4ked0pG2PxR/R0YG9h9dwk4oV0C1BdNyKHgMuS7Ve3J5Q==
 
 "@hutson/parse-repository-url@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.0.tgz#3fa172e3006f36e547fb49835bf25fc487a29f1c"
-  integrity sha512-gIKsI1Pd9O3uazccWD0KPMMMwNk+PncJRSKEFdtzaKTgehMuw5Lm1O6SK39vg1u9iFWOzofE+DxcrttXeAW1KQ==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.1.tgz#b9a7daec81cf1fa9cf5dc01576536d50cb9db899"
+  integrity sha512-gNd42W/1NDEp0o+jM3WNf9LIeQOoiPmrPwgNtHiFm/Tk52883qFrR07WCp6ezyfPvnHkz57Kwe94MbyE6J18Vg==
 
 "@hutson/set-npm-auth-token-for-ci@^2.1.0":
   version "2.1.0"
@@ -943,9 +943,9 @@ eslint-visitor-keys@^1.0.0:
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
 eslint@^5.3.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.12.0.tgz#fab3b908f60c52671fb14e996a450b96c743c859"
-  integrity sha512-LntwyPxtOHrsJdcSwyQKVtHofPHdv+4+mFwEe91r2V13vqpM8yLr7b1sW+Oo/yheOPkWYsYlYJCkzlFAt8KV7g==
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.12.1.tgz#5ca9931fb9029d04e7be92b03ce3b58edfac7e3b"
+  integrity sha512-54NV+JkTpTu0d8+UYSA8mMKAG4XAsaOrozA9rCW7tgneg1mevcL7wIotPC+fZ0SkWwdhNqoXoxnQCTBp7UvTsg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
@@ -2079,9 +2079,9 @@ normalize-url@2.0.1:
     sort-keys "^2.0.0"
 
 npm-publish-git-tag@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/npm-publish-git-tag/-/npm-publish-git-tag-3.0.2.tgz#c36abdb2db104e88022d20e62ba59be2c1c4bfa2"
-  integrity sha512-HUjA34pM8gwDrnVoY3qIo4r7MBnSKL/fy0inN8ROt93kyhsLO8WFT42VMaB3ViN8R1aKKsovMgGVIvv1mEdL7g==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/npm-publish-git-tag/-/npm-publish-git-tag-3.0.3.tgz#31aafe5acfb88072b5a5c3d8ea6bfd8bd0fd703e"
+  integrity sha512-QTu/aMHAFvgEGQfzbaN5crRS9bUCxVVn3bYgQUAtu9PfwO8zB46Nzx9fip/sGVdAbtcL47BYIttPNbl5olfPzw==
   dependencies:
     "@hutson/set-npm-auth-token-for-ci" "^2.1.0"
     bluebird "^3.5.0"
@@ -2709,9 +2709,9 @@ scoped-regex@^1.0.0:
   integrity sha1-o0a7Gs1CB65wvXwMfKnlZra63bg=
 
 semantic-release-github-notifier@^7.1.0:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-github-notifier/-/semantic-release-github-notifier-7.1.1.tgz#d4f03b63ecea82a461fb3ee1813209db137278dc"
-  integrity sha512-SwAMPZoBY03pP+9GrM+z7NuFJMJIUCZU/P4pM2ibLa0ZfT419INqrgvJIdpINo+zFejOEbZCve/Q/AICSBNg+w==
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-github-notifier/-/semantic-release-github-notifier-7.1.2.tgz#21e54fc1e8c7c4b3d2cc57c6ea0960f0c63c7d38"
+  integrity sha512-CwpfhGiHGaSMHM/r9RKy4bwwwkrk6lwb9djFOZIkrR+qL7q6F6AkRKTOIjrCuZHQryL2rspmWtG5/CrEWTzkqg==
   dependencies:
     bluebird "^3.4.1"
     conventional-commits-parser "^3.0.0"
@@ -2723,10 +2723,10 @@ semantic-release-github-notifier@^7.1.0:
     stream-array "^1.1.2"
     through2 "^3.0.0"
 
-semantic-release-github-releaser@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-github-releaser/-/semantic-release-github-releaser-6.1.0.tgz#9f52918675c36f450d89f0a047d13fa013faf4d2"
-  integrity sha512-XeYivoqj6iMoCS5AmyQHeXuKiuLG2sRozLF3cRbbHiF15kjfuKnCk/cjP79vKwdL0df2Dz+FmL5hgFyiN/tkoQ==
+semantic-release-github-releaser@^6.1.1:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-github-releaser/-/semantic-release-github-releaser-6.1.2.tgz#77f7380b3d1fc98ee2273da45e2bc547eee64cbf"
+  integrity sha512-dglarYMg3ktaNXh1zyg/D0bl4iBnL8RiBXqsBR7GJhW66dOVIDUqw9prFjPa+yHabQf+6iByHu4BYacE63PJ1w==
   dependencies:
     bluebird "^3.3.4"
     conventional-github-releaser "^3.0.0"
@@ -2735,9 +2735,9 @@ semantic-release-github-releaser@^6.1.0:
     lodash "^4.0.1"
 
 semantic-release-github@^4.0.17:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-github/-/semantic-release-github-4.2.1.tgz#975c092a8440e8d8c6c9b18c18bf60435d61c93e"
-  integrity sha512-NIl+EwpXFhKCMsOdWQchLpfgGcHqjyRVa7ZifAhJAlzTjchyZkghcFa/DkTHMr3N9lsIur0W4GGPEY/K/MFEAw==
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/semantic-release-github/-/semantic-release-github-4.2.3.tgz#ea781b2f74486efbbd75aa58b30e4509b3af723a"
+  integrity sha512-0vEcy1kwjaknpuq2ldh8if7BUEd7GPCFnwj9iGhi3t/CIXPkBi6Uab0Qo6Ylspy0m4qe6nHvescq7NJfojDF9A==
   dependencies:
     bluebird "^3.3.4"
     commander "^2.9.0"
@@ -2750,7 +2750,7 @@ semantic-release-github@^4.0.17:
     git-remote-origin-url "^2.0.0"
     lodash "^4.7.0"
     semantic-release-github-notifier "^7.1.0"
-    semantic-release-github-releaser "^6.1.0"
+    semantic-release-github-releaser "^6.1.1"
     semver "^5.1.0"
     shelljs "^0.8.0"
     shifted-semver-increment "^2.0.0"
@@ -2793,11 +2793,11 @@ shelljs@^0.8.0:
     rechoir "^0.6.2"
 
 shifted-semver-increment@^2.0.0:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/shifted-semver-increment/-/shifted-semver-increment-2.0.12.tgz#e135ba3f797bbbc6a77140746929221f6ab4776f"
-  integrity sha512-3k1tx0s/aMSgqbeFj271VDLBWTwtBcBzkP+EV5rj/Emb3efm59lQpi3XVpQL4r7T8P3EP/y+rdKK2218RyZCow==
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/shifted-semver-increment/-/shifted-semver-increment-2.0.13.tgz#967dff38a4d7ca61aee10ec4a9a3d68041150b5b"
+  integrity sha512-zSdliPFW16IULq5kcEJBvNMhYIgJ0KpiO7sm2hhQSSSOyHorio2QclUJipxmV+Bo+p+ng7es9gDKu2jwxvQTpw==
   dependencies:
-    debug "^3.1.0"
+    debug "^4.0.0"
     semver "^5.4.1"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
@@ -3028,9 +3028,9 @@ supports-color@^5.3.0, supports-color@^5.4.0:
     has-flag "^3.0.0"
 
 table@^5.0.2:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/table/-/table-5.2.0.tgz#2e38bd1f16dd3f97085ac80cdc574ad9198af04d"
-  integrity sha512-hAdBBAMCZl4/U3eQhsPN2Z8wRJC98lpRhDW2I86VQbPBqyj4E681VhvUkfb90qUJ4rnRfu8t4/8SGHPsAH1ygg==
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/table/-/table-5.2.1.tgz#e78463702b1be9f7131c39860bcfb1b81114c2a1"
+  integrity sha512-qmhNs2GEHNqY5fd2Mo+8N1r2sw/rvTAAvBZTaTx+Y7PHLypqyrxr1MdIu0pLw6Xvl/Gi4ONu/sdceP8vvUjkyA==
   dependencies:
     ajv "^6.6.1"
     lodash "^4.17.11"
