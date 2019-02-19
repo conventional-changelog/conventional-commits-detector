@@ -1,6 +1,6 @@
 # conventional-commits-detector
 
-> Detect what commit message convention your repository is using.
+> :mag: Detect what commit message convention your repository is using.
 
 ## Table of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
