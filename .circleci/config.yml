@@ -6,7 +6,7 @@ node_6: &node_6
 
 node_8: &node_8
   docker:
-    - image: node:8@sha256:ef9eec21d7228c9df4bd6efb4ee7f4bd081db843b41718939843eb6e10a53f79
+    - image: node:8@sha256:75b524a4b07a24b677c821307052000e2d19d4aaafe72505950bc567148a6aba
 
 node_next: &node_next
   docker:
