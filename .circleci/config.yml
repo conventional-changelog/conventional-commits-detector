@@ -10,7 +10,7 @@ node_8: &node_8
 
 node_next: &node_next
   docker:
-    - image: node:latest@sha256:c14ae3a0f4661b6c07f4df01c3f9ce9e1806459af1dd154a6b76d1ba05c32760
+    - image: node:latest@sha256:53578f5d3cfa6529cb40ff4ce1658f644f9e13841a3bd6e049d74be294c0f37e
 
 test_plan: &test_plan
   steps:
