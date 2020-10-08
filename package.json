@@ -58,6 +58,6 @@
     "mocha": "^6.0.0",
     "npm-publish-git-tag": "^3.0.0",
     "nyc": "^14.0.0",
-    "semantic-release-github": "^4.0.17"
+    "semantic-release-github": "^5.0.0"
   }
 }
